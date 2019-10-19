@@ -1,0 +1,71 @@
+{% extends "layout.html" %} {% block body %}
+<div class="book-all">
+  <h6>{{ errormessage }}</h6>
+  <div class="book-page">
+    <div class="book-image">
+      <h6>{{ title }}</h6>
+    </div>
+    <div class="details">
+      <h5 id="title">
+        {{ title }}, <span id="author">{{ author }}</span>
+      </h5>
+
+      <ul>
+        <li>ISBN: {{ isbn }}</li>
+        <li>{{ year }}</li>
+      </ul>
+      <div class="star">
+        {% for star in range(stars) %}
+        <i class="fa fa-star"></i>
+        {% endfor %} {% for star in range(staro) %}
+        <i class="fa fa-star-o"></i>
+        {% endfor %}
+      </div>
+
+      <h5 id="review">Ratings: {{ total_ratings }}</h5>
+      <br />
+      <a href="{{ url_for('api', isbn=isbn)}}">
+        <h5 id="review">View API</h5></a
+      >
+    </div>
+  </div>
+
+  <div class="review-section">
+    <h4>Reviews</h4>
+    <ul>
+      {% for review in reviews %}
+      <li>
+        <h6>
+          {{ review.username }} | <span>{{ review.date }}</span>
+        </h6>
+        <div class="review-number">
+          <p>
+            {{ review.review }}
+          </p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="review-form">
+    <form method="post">
+      <textarea name="review" cols="120" rows="10"></textarea>
+      <br />
+      <h6>Stars:</h6>
+
+      <select name="rating">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <br />
+      <div class="review-submit">
+        <button class="submit" type="submit">Submit Review</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,566 @@
+a {
+  text-decoration: none;
+}
+
+.nav-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-header nav {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.nav-header nav a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+.nav-header nav h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #ffb802;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.nav-header a {
+  text-decoration: none;
+}
+.nav-header h3 {
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px 5px 0px;
+  color: black;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.nav-header h3 span {
+  color: #ffb802;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.signin-header {
+  display: flex;
+  justify-content: center;
+}
+.signin-header h1 {
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+.signin-header h1 span {
+  color: #ffb802;
+}
+
+.sign-up {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-up form {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.sign-up form .names {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-up form .names input {
+  border-top: 0px solid white;
+  border-right: 0px solid white;
+  border-left: 0px solid white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  width: 125px;
+}
+.sign-up form .form-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-up form .form-bottom input {
+  width: 275px;
+  border-top: 0px solid white;
+  border-right: 0px solid white;
+  border-left: 0px solid white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.sign-up form .form-bottom button {
+  width: 125px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 12px;
+  background-color: #ffb802;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.sign-up #option {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.sign-up #option a {
+  text-decoration: none;
+  color: #ffb802;
+}
+.sign-up #error {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: red;
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+footer h6 {
+  margin: 0px;
+}
+
+.search-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+  margin-top: 100px;
+}
+.search-top li {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+}
+.search-top li img {
+  margin-right: 15px;
+  width: 20px;
+}
+
+form .search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+form .search-form input {
+  width: 420px;
+  border-top: 0px solid white;
+  border-right: 0px solid white;
+  border-left: 0px solid white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+form .search-form button {
+  margin-top: 20px;
+  width: 85px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 11px;
+  background-color: #ffb802;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.layout-footer {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.layout-footer h6 {
+  margin: 0px;
+}
+
+.book-all {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 150px;
+}
+
+.book-page {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+.book-page .book-image {
+  width: 500px;
+  height: 650px;
+  margin-right: 40px;
+  background-color: #ffb802;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book-page .book-image h6 {
+  text-decoration: none;
+  word-spacing: 200px;
+  width: 450px;
+  height: 600px;
+  text-align: right;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 6px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  color: black;
+}
+.book-page .details a {
+  text-decoration: none;
+}
+.book-page .details h5 {
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgab(0, 0, 0, 0.75);
+}
+.book-page .details h5 span {
+  font-weight: 300;
+  font-style: italic;
+}
+.book-page .details ul {
+  list-style: none;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgab(0, 0, 0, 0.75);
+}
+.book-page .details ul li {
+  margin: 10px 0px 10px 0px;
+}
+.book-page .details .star {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.book-page .details .star .fa-star {
+  color: #ffb802;
+}
+.book-page .details #review {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffb802;
+}
+
+.review-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.review-section ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.review-section ul li {
+  padding: 0px;
+  margin: 0px;
+}
+.review-section ul li a {
+  list-style: none;
+}
+.review-section ul li h6 {
+  margin: 0px 0px 5px 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+.review-section ul li h6 span {
+  font-weight: 300;
+}
+.review-section h4 {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgab(0, 0, 0, 0.75);
+}
+.review-section .review-number p {
+  width: 750px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.review-form h6 {
+  margin: 0px;
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+.review-form select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  width: 25px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0px 2px 0px 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.review-form .review-submit {
+  display: flex;
+  justify-content: flex-end;
+}
+.review-form .review-submit button {
+  border: 1px solid rgba(0, 0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgab(0, 0, 0, 0.75);
+}
+.review-form .review-submit .submit {
+  margin-right: 10px;
+  color: #ffb802;
+}
+
+.search-all {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  margin-left: 150px;
+}
+.search-all h6 {
+  margin-top: 85px;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+}
+.search-all h6 span {
+  font-weight: 500;
+}
+.search-all a {
+  text-decoration: none;
+}
+.search-all #message {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffb802;
+}
+.search-all ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgab(0, 0, 0, 0.75);
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.search-all ul a,
+.search-all ul a:hover,
+.search-all ul a:visited,
+.search-all ul a:link,
+.search-all ul a:active {
+  text-decoration: none;
+  color: rgab(0, 0, 0, 0.75);
+}
+.search-all ul a li,
+.search-all ul a:hover li,
+.search-all ul a:visited li,
+.search-all ul a:link li,
+.search-all ul a:active li {
+  padding: 0px;
+  margin: 0px;
+}
+.search-all ul a li .search-page,
+.search-all ul a:hover li .search-page,
+.search-all ul a:visited li .search-page,
+.search-all ul a:link li .search-page,
+.search-all ul a:active li .search-page {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.search-all ul a li .search-page .book-image,
+.search-all ul a:hover li .search-page .book-image,
+.search-all ul a:visited li .search-page .book-image,
+.search-all ul a:link li .search-page .book-image,
+.search-all ul a:active li .search-page .book-image {
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+  background-color: #ffb802;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-all ul a li .search-page .book-image h6,
+.search-all ul a:hover li .search-page .book-image h6,
+.search-all ul a:visited li .search-page .book-image h6,
+.search-all ul a:link li .search-page .book-image h6,
+.search-all ul a:active li .search-page .book-image h6 {
+  text-decoration: none;
+  word-spacing: 100px;
+  height: 170px;
+  width: 120px;
+  text-align: right;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  padding: 5px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+}
+.search-all ul a li .search-page .details,
+.search-all ul a:hover li .search-page .details,
+.search-all ul a:visited li .search-page .details,
+.search-all ul a:link li .search-page .details,
+.search-all ul a:active li .search-page .details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgab(0, 0, 0, 0.75);
+}
+.search-all ul a li .search-page .details h5,
+.search-all ul a:hover li .search-page .details h5,
+.search-all ul a:visited li .search-page .details h5,
+.search-all ul a:link li .search-page .details h5,
+.search-all ul a:active li .search-page .details h5 {
+  margin: 0px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgab(0, 0, 0, 0.75);
+}
+.search-all ul a li .search-page .details h5 span,
+.search-all ul a:hover li .search-page .details h5 span,
+.search-all ul a:visited li .search-page .details h5 span,
+.search-all ul a:link li .search-page .details h5 span,
+.search-all ul a:active li .search-page .details h5 span {
+  font-weight: 300;
+  font-style: italic;
+}
+.search-all ul a li .search-page .details ul,
+.search-all ul a:hover li .search-page .details ul,
+.search-all ul a:visited li .search-page .details ul,
+.search-all ul a:link li .search-page .details ul,
+.search-all ul a:active li .search-page .details ul {
+  list-style: none;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgab(0, 0, 0, 0.75);
+}
+.search-all ul a li .search-page .details ul li,
+.search-all ul a:hover li .search-page .details ul li,
+.search-all ul a:visited li .search-page .details ul li,
+.search-all ul a:link li .search-page .details ul li,
+.search-all ul a:active li .search-page .details ul li {
+  color: rgab(0, 0, 0, 0.75);
+  margin: 10px 0px 10px 0px;
+}
+.search-all ul a li .search-page h6,
+.search-all ul a:hover li .search-page h6,
+.search-all ul a:visited li .search-page h6,
+.search-all ul a:link li .search-page h6,
+.search-all ul a:active li .search-page h6 {
+  margin: 5px 0px 0px 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffb802;
+}
+
+.welcome {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome h3 {
+  width: 90%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: rgab(0, 0, 0, 0.75);
+}
+.welcome a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffb802;
+}
+
+/*# sourceMappingURL=main.css.map */

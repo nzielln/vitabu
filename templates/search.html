@@ -1,0 +1,33 @@
+{% extends "layout.html" %} {% block body %}
+<ul class="search-top">
+  <li><img src="../static/images/search.png" alt="" /></li>
+  <li>Search for a book.</li>
+</ul>
+<form method="POST">
+  <div class="search-form">
+    <input
+      class="class-form-text"
+      type="text"
+      name="title"
+      placeholder="Book Title"
+    />
+    <br />
+    <input
+      class="class-form-text"
+      type="text"
+      name="author"
+      placeholder="Author"
+    />
+    <br />
+    <input
+      class="class-form-text"
+      type="text"
+      name="isbn"
+      placeholder="ISBN Number"
+    />
+    <br />
+
+    <button ype="submit">Search</button>
+  </div>
+</form>
+{% endblock %}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vita.bu</title>
+    <link rel="stylesheet" href="../static/styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/85f85b10f1.css" />
+  </head>
+
+  <header class="nav-header">
+    <nav class="main-top">
+      <a href="{{ url_for('search') }}"><h6>Search Books</h6></a>
+      <a href="{{ url_for('logout') }}"><h6>Sign Out</h6></a>
+    </nav>
+    <a href="{{ url_for('signup') }}"
+      ><h3>vita<span class="yello">.</span>bu</h3></a
+    >
+  </header>
+
+  {% block body %} {% endblock %}
+
+  <footer class="layout-footer">
+    <h6>CS50</h6>
+    <h6>Ellah Nzikoba</h6>
+  </footer>
+</html>
