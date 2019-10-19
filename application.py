@@ -48,8 +48,8 @@ def signup():
             user = db.execute(
                 "SELECT * FROM users WHERE id = :id", {"id": user_id}).fetchone()
             return render_template('welcome.html', firstname=user.firstname)
-
-        return render_template("signup.html")
+            else:
+                return render_template("signup.html")
 
     if request.method == "POST":
 
@@ -79,9 +79,7 @@ def signup():
         return render_template('welcome.html', firstname=firstname)
 
         # set user_id and user_name
-
-    else:
-        return render_template("signup.html")
+    return render_template("signup.html")
 
 
 @app.route("/signin", methods=["GET", "POST"])
