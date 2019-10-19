@@ -11,7 +11,7 @@ import requests
 app = Flask(__name__)
 
 # Check for environment variable
-if not os.getenv("DATABASE_URL"):
+if not os.environ.get("DATABASE_URL"):
     raise RuntimeError("DATABASE_URL is not set")
 else:
     print("Connected!")
